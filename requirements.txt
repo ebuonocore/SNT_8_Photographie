@@ -1,2 +1,2 @@
 matplotlib==3.*
-pillow==7
+pillow==8.11
