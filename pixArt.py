@@ -48,7 +48,7 @@ def dessine_rect(nom, taille):
     ax.spines['left'].set_visible(False)
     ax.spines['bottom'].set_visible(False)
     ax.grid(False)
-    tab_couleurs = [(i/9,i/9,i/9) for i in range(10)]
+    tab_couleurs = [(i/9,i/9,0) for i in range(10)]
     rect = []
     dX = 1 / largeur
     dY = 1 / hauteur
