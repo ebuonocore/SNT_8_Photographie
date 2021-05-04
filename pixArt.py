@@ -57,7 +57,7 @@ def dessine_rect(nom, taille):
             coul=tab_couleurs[nom[y][x]]
             X = x / largeur
             Y = (hauteur - y) / hauteur
-            rect.append(patches.Rectangle((X,Y),dX,dY,linewidth=1,facecolor=coul))
+            rect.append(patches.Rectangle((X-dX,Y-dY),dX,dY,linewidth=1,facecolor=coul))
     for r in rect:
         ax.add_patch(r)
     plt.show()
